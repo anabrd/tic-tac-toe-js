@@ -1,0 +1,22 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+div {
+    height: 20vmin;
+    width: 20vmin;
+    background-color: antiquewhite;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 60vmin;
+    margin: auto;
+}
